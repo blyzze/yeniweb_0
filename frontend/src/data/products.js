@@ -97,7 +97,7 @@ export const products = {
     description_tr: "ALPHA 275, insan gücü olmadan dikim yapabilen tam otomatik bir patates dikim makinesidir. Isıl işlem görmüş bıçaklar ve 1000 kg kapasiteli hidrolik hazne ile yüksek verimlilik sunar.",
     description_en: "The ALPHA 275 is a full automatic potato planter that plants without human power. With heat-treated blades and a 1000 kg capacity hydraulic hopper, it delivers high efficiency.",
     category: "potato-planters",
-    image: "/images/alpha275-1.png",
+    image: "/images/alpha275-1.jpg",
     specs: {
       workingWidth: "2000mm",
       rows: "2",
@@ -130,7 +130,7 @@ export const products = {
     description_tr: "ALPHA 475, geniş alanlar için tasarlanmış 4 sıralı tam otomatik patates dikim makinesidir. 1800 kg kapasiteli hidrolik hazne ve yüksek verimlilik ile düşük iş gücü maliyeti sağlar.",
     description_en: "The ALPHA 475 is a 4-row full automatic potato planter designed for large areas. With an 1800 kg capacity hydraulic hopper, it provides high efficiency and low labor cost.",
     category: "potato-planters",
-    image: "/images/alpha475-1.png",
+    image: "/images/alpha475-1.jpg",
     specs: {
       workingWidth: "3500mm",
       rows: "4",
@@ -163,7 +163,7 @@ export const products = {
     description_tr: "PDO-2N, küçük çiftçiler ve engebeli araziler için uygun, ekonomik bir yarı otomatik patates dikim makinesidir. Isıl işlem görmüş bıçakları ile dayanıklı ve güvenilir performans sunar.",
     description_en: "The PDO-2N is an economical semi-automatic potato planter suitable for small farmers and hilly fields. With heat-treated blades, it offers durable and reliable performance.",
     category: "potato-planters",
-    image: "/images/pdo2n-1.jfif",
+    image: "/images/pdo2n-1.jpg",
     specs: {
       workingWidth: "1750mm",
       rows: "2",
@@ -194,7 +194,7 @@ export const products = {
     description_tr: "PDO-2F, entegre gübre seçeneği sunan yarı otomatik bir patates dikim makinesidir. Dekar başına 50 kg'a kadar gübre ayarı yapılabilir. Küçük çiftçiler için idealdir.",
     description_en: "The PDO-2F is a semi-automatic potato planter with an integrated fertilizer option. Fertilizer can be set up to 50 kg per decare. Ideal for small farmers.",
     category: "potato-planters",
-    image: "/images/pdo2n-1.jfif",
+    image: "/images/pdo2n-1.jpg",
     specs: {
       workingWidth: "1750mm",
       rows: "2",
@@ -226,7 +226,7 @@ export const products = {
     description_tr: "PDO-4N, orta ölçekli çiftlikler için tasarlanmış 4 sıralı yarı otomatik patates dikim makinesidir. 1300 kg kapasiteli hazne ile yüksek kapasiteli dikim sağlar.",
     description_en: "The PDO-4N is a 4-row semi-automatic potato planter designed for medium-sized farms. With a 1300 kg capacity hopper, it provides high capacity planting.",
     category: "potato-planters",
-    image: "/images/pdo4n-1.png",
+    image: "/images/pdo4n-1.jpg",
     specs: {
       workingWidth: "3500mm",
       rows: "4",
@@ -288,7 +288,7 @@ export const products = {
     description_tr: "ULTRA 475, 4 sıralı yüksek kapasiteli hasat yapabilen güçlü bir paletli patates söküm makinesidir. HARDOX kalitesinde bıçaklar ve geniş çalışma genişliği ile büyük tarlalarda verimli hasat sağlar.",
     description_en: "The ULTRA 475 is a powerful 4-row pallet potato harvester capable of high capacity harvesting. With HARDOX quality blades and wide working width, it ensures efficient harvesting in large fields.",
     category: "potato-harvesters",
-    image: "/images/ultra475-1.png",
+    image: "/images/ultra475-1.jpg",
     specs: {
       workingWidth: "3000mm",
       rows: "4",
@@ -319,7 +319,7 @@ export const products = {
     description_tr: "PSH-2S, hafif ve taşlı topraklar için uygun, palet ve titreşimli elek ile çift eleme yapan bir patates söküm makinesidir. Kolay kullanımı ve düşük arıza oranı ile öne çıkar.",
     description_en: "The PSH-2S is a potato harvester suitable for light and stony soil, featuring dual sifting via pallet and vibrating sieve. It stands out with easy operation and low failure rate.",
     category: "potato-harvesters",
-    image: "/images/psh2s-1.png",
+    image: "/images/psh2s-1.jpg",
     specs: {
       workingWidth: "1650mm",
       rows: "2",
@@ -349,7 +349,7 @@ export const products = {
     description_tr: "SSM-1400, profesyonel soğan hasadı için tasarlanmış verimli ve hızlı bir söküm makinesidir. Dayanıklı yapısı ve kolay bakımı ile uzun yıllar güvenilir performans sunar.",
     description_en: "The SSM-1400 is an efficient and fast harvester designed for professional onion harvesting. With its durable construction and easy maintenance, it offers reliable performance for years.",
     category: "onion-harvesters",
-    image: "/images/sokum.png",
+    image: "/images/sokum.jpg",
     specs: {
       workingWidth: "1420mm",
       tractorPower: "65 hp",
@@ -372,9 +372,9 @@ export const products = {
 
 export const categoryImages = {
   "soil-preparation": "/images/toprakhazirlama.jpg",
-  "potato-planters": "/images/alpha275-1.png",
-  "potato-harvesters": "/images/ultra475-1.png",
-  "onion-harvesters": "/images/sokum.png",
+  "potato-planters": "/images/alpha275-1.jpg",
+  "potato-harvesters": "/images/ultra475-1.jpg",
+  "onion-harvesters": "/images/sokum.jpg",
 };
 
 // Machine overlay images for hover effect (like hmsagro)
@@ -390,15 +390,15 @@ export const productGallery = {
   "HT475": ["/images/toprakhazirlama.jpg"],
   "SPIDER275": ["/images/toprakhazirlama.jpg"],
   "SPIDER475": ["/images/toprakhazirlama.jpg"],
-  "ALPHA275": ["/images/alpha275-1.png", "/images/alpha275-2.png"],
-  "ALPHA475": ["/images/alpha475-1.png", "/images/alpha475-2.png"],
-  "PDO-2N": ["/images/pdo2n-1.jfif", "/images/pdo2n-2.jfif", "/images/pdo2n-3.jfif"],
-  "PDO-2F": ["/images/pdo2n-1.jfif", "/images/pdo2n-2.jfif", "/images/pdo2n-3.jfif"],
-  "PDO-4N": ["/images/pdo4n-1.png"],
+  "ALPHA275": ["/images/alpha275-1.jpg", "/images/alpha275-2.jpg"],
+  "ALPHA475": ["/images/alpha475-1.jpg", "/images/alpha475-2.jpg"],
+  "PDO-2N": ["/images/pdo2n-1.jpg", "/images/pdo2n-2.jpg", "/images/pdo2n-3.jpg"],
+  "PDO-2F": ["/images/pdo2n-1.jpg", "/images/pdo2n-2.jpg", "/images/pdo2n-3.jpg"],
+  "PDO-4N": ["/images/pdo4n-1.jpg"],
   "ULTRA275": ["/images/patatessokum.jpg", "/images/patatessokum2.jpeg", "/images/patatessokum3.jpeg"],
-  "ULTRA475": ["/images/ultra475-1.png", "/images/ultra475-2.png", "/images/ultra475-3.png"],
-  "PSH-2S": ["/images/psh2s-1.png", "/images/psh2s-2.png", "/images/psh2s-3.png"],
-  "SSM-1400": ["/images/sokum.png"],
+  "ULTRA475": ["/images/ultra475-1.jpg", "/images/ultra475-2.jpg", "/images/ultra475-3.jpg"],
+  "PSH-2S": ["/images/psh2s-1.jpg", "/images/psh2s-2.jpg", "/images/psh2s-3.jpg"],
+  "SSM-1400": ["/images/sokum.jpg"],
 };
 
 export const getProductsByCategory = (categoryId) => {

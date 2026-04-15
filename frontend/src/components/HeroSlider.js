@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const heroImages = [
-  "/images/alpha275-1.png",
-  "/images/ultra475-1.png",
-  "/images/psh2s-1.png",
+  "/images/alpha275-1.jpg",
+  "/images/ultra475-1.jpg",
+  "/images/psh2s-1.jpg",
 ];
 
 export default function HeroSlider() {
