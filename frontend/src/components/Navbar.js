@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <nav
       data-testid="navbar"
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+      className={`fixed w-full top-8 z-50 transition-all duration-300 ${
         scrolled ? 'bg-[#0A0A0A]/95 backdrop-blur-md border-b border-zinc-800' : 'bg-transparent'
       }`}
     >

@@ -15,7 +15,7 @@ export default function MediaPage() {
   const { t } = useLang();
 
   return (
-    <div data-testid="media-page" className="pt-20 bg-[#0A0A0A] min-h-screen">
+    <div data-testid="media-page" className="pt-28 bg-[#0A0A0A] min-h-screen">
       {/* Banner */}
       <div className="relative h-56 overflow-hidden">
         <div

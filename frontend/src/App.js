@@ -2,8 +2,10 @@ import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { LanguageProvider } from "./context/LanguageContext";
+import SocialBar from "./components/SocialBar";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/WhatsAppButton";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProductsPage from "./pages/ProductsPage";
@@ -23,6 +25,7 @@ function App() {
       <div className="App bg-[#0A0A0A] min-h-screen">
         <BrowserRouter>
           <ScrollToTop />
+          <SocialBar />
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -34,6 +37,7 @@ function App() {
             <Route path="/media" element={<MediaPage />} />
           </Routes>
           <Footer />
+          <WhatsAppButton />
         </BrowserRouter>
       </div>
     </LanguageProvider>

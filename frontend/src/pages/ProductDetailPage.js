@@ -129,7 +129,7 @@ export default function ProductDetailPage() {
 
   if (!product) {
     return (
-      <div className="pt-20 bg-[#0A0A0A] min-h-screen flex items-center justify-center">
+      <div className="pt-28 bg-[#0A0A0A] min-h-screen flex items-center justify-center">
         <p className="text-zinc-400 font-ibm">Product not found</p>
       </div>
     );
@@ -139,7 +139,7 @@ export default function ProductDetailPage() {
   const description = lang === 'tr' ? product.description_tr : product.description_en;
 
   return (
-    <div data-testid="product-detail-page" className="pt-20 bg-[#0A0A0A] min-h-screen">
+    <div data-testid="product-detail-page" className="pt-28 bg-[#0A0A0A] min-h-screen">
       {/* Banner */}
       <div className="relative h-72 md:h-96 overflow-hidden">
         <img

@@ -17,7 +17,7 @@ export default function ProductsPage() {
     const cat = t.products.categories[categoryId];
 
     return (
-      <div data-testid="products-category-page" className="pt-20 bg-[#0A0A0A] min-h-screen">
+      <div data-testid="products-category-page" className="pt-28 bg-[#0A0A0A] min-h-screen">
         {/* Banner */}
         <div className="relative h-64 overflow-hidden">
           <div
@@ -82,7 +82,7 @@ export default function ProductsPage() {
 
   // All categories view
   return (
-    <div data-testid="products-page" className="pt-20 bg-[#0A0A0A] min-h-screen">
+    <div data-testid="products-page" className="pt-28 bg-[#0A0A0A] min-h-screen">
       {/* Banner */}
       <div className="relative h-64 overflow-hidden">
         <div

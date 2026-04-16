@@ -7,7 +7,7 @@ export default function AboutPage() {
   const { t } = useLang();
 
   return (
-    <div data-testid="about-page" className="pt-20 bg-[#0A0A0A] min-h-screen">
+    <div data-testid="about-page" className="pt-28 bg-[#0A0A0A] min-h-screen">
       {/* Hero Banner */}
       <div className="relative h-72 overflow-hidden">
         <div

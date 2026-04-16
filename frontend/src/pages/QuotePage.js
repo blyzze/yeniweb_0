@@ -52,7 +52,7 @@ export default function QuotePage() {
   };
 
   return (
-    <div data-testid="quote-page" className="pt-20 bg-[#0A0A0A] min-h-screen">
+    <div data-testid="quote-page" className="pt-28 bg-[#0A0A0A] min-h-screen">
       {/* Banner */}
       <div className="relative h-56 overflow-hidden">
         <div

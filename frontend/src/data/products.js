@@ -7,7 +7,7 @@ export const products = {
     description_tr: "HT475, ekim öncesi toprağı hazırlamak için tasarlanmış güçlü bir preparatördür. HARDOX kalitesinde bıçakları ile sertleşmiş toprak ve topakları kolayca parçalar, toprak havalandırmasını artırarak bitkilerin su ve mineral alımını iyileştirir.",
     description_en: "The HT475 is a powerful preparator designed for pre-planting soil preparation. With HARDOX quality blades, it easily breaks down hardened soil and clods, enhancing soil aeration to improve water and mineral uptake for plants.",
     category: "soil-preparation",
-    image: "/images/toprakhazirlama.jpg",
+    image: "/images/ht475-1.jpg",
     specs: {
       workingWidth: "3490mm",
       rows: "4",
@@ -68,7 +68,7 @@ export const products = {
     description_tr: "SPIDER 475, 4 sıralı yüksek kapasiteli çalışma imkanı sunan güçlü bir mekanik çapa makinesidir. Geniş alan çalışmaları için ideal olup, verimli mineral dağıtımı sağlar.",
     description_en: "The SPIDER 475 is a powerful mechanical hoeing machine offering 4-row high capacity operation. Ideal for large field operations, it ensures efficient mineral distribution.",
     category: "soil-preparation",
-    image: "/images/toprakhazirlama.jpg",
+    image: "/images/spider475-1.jpg",
     specs: {
       workingWidth: "3500mm",
       rows: "4",
@@ -371,7 +371,7 @@ export const products = {
 };
 
 export const categoryImages = {
-  "soil-preparation": "/images/toprakhazirlama.jpg",
+  "soil-preparation": "/images/ht475-1.jpg",
   "potato-planters": "/images/alpha275-1.jpg",
   "potato-harvesters": "/images/ultra475-1.jpg",
   "onion-harvesters": "/images/sokum.jpg",
@@ -387,9 +387,9 @@ export const categoryMachineImages = {
 
 // Gallery images for product detail pages (per-product)
 export const productGallery = {
-  "HT475": ["/images/toprakhazirlama.jpg"],
+  "HT475": ["/images/ht475-1.jpg", "/images/ht475-2.jpg"],
   "SPIDER275": ["/images/toprakhazirlama.jpg"],
-  "SPIDER475": ["/images/toprakhazirlama.jpg"],
+  "SPIDER475": ["/images/spider475-1.jpg", "/images/spider475-2.jpg"],
   "ALPHA275": ["/images/alpha275-1.jpg", "/images/alpha275-2.jpg"],
   "ALPHA475": ["/images/alpha475-1.jpg", "/images/alpha475-2.jpg"],
   "PDO-2N": ["/images/pdo2n-1.jpg", "/images/pdo2n-2.jpg", "/images/pdo2n-3.jpg"],
